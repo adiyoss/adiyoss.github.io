@@ -656,6 +656,10 @@ section#contact {
     background-image: url(../img/map-image.jpg);
     background-position: center;
     background-repeat: no-repeat;    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 section#contact .section-heading {
