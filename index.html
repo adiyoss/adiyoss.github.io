@@ -111,7 +111,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
-                        <li>
+     <!--                    <li>
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/music.jpg" alt="">
                             </div>
@@ -124,7 +124,7 @@
                                     <p class="text-muted">Drummer at the IDF Orchestra</p>
                                 </div>
                             </div>
-                        </li>
+                        </li> -->
                         <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/hipster_robot.jpg" alt="">
@@ -245,13 +245,29 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/La_Strada_preview.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/structed_preview.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>StructED</h4>
                         <p class="text-muted">Structured Prediction Library</p>
                     </div>
                 </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/GitHub_preview.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Online Code</h4>
+                        <p class="text-muted">Online Code Hoseted @ GitHub</p>
+                    </div>
+                </div>
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -264,20 +280,6 @@
                     <div class="portfolio-caption">
                         <h4>Vowel Duration</h4>
                         <p class="text-muted">Vowel Duration Measurement</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/locator_preview.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Locator</h4>
-                        <p class="text-muted">Localization Package Using the Kinect</p>
                     </div>
                 </div>
             </div>
@@ -351,11 +353,10 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>LaStrada</h2>
-                            <img class="img-responsive img-centered" src="img/portfolio/La_Strada.jpg" alt="">
-                            <p>La Strada is a collection of machine learning algorithms for structured prediction problems. In structured prediction each task is distinctive and has its own set of feature functions, unique measure of performance and in many cases a non-standard inference. La Strada package was designed to handle this inherent implementation complexity by having an easy interface to user-defined feature functions, decoder and evaluation function</p>
-                            <p><a href="http://slpl.github.io/LaStrada/" target="_blank">Download LaStrada</a></p>
+                            <!-- Project Details Go Here -->                            
+                            <img class="img-responsive img-centered" src="img/portfolio/structed.jpg" alt="">
+                            <p>StructED is a collection of machine learning algorithms for structured prediction problems. In structured prediction each task is distinctive and has its own set of feature functions, unique measure of performance and in many cases a non-standard inference. StructED package was designed to handle this inherent implementation complexity by having an easy interface to user-defined feature functions, decoder and evaluation function. The package is a general framework for implementation structured prediction problems and algorithms, and it is highly customizable. All algorithms are implemented by the same interfaces, so adding new algorithms or comparing them is straightforward.</p>
+                            <p><a href="http://adiyoss.github.io/StructED/" target="_blank">Download StructED</a></p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -365,6 +366,32 @@
     </div>
 
     <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Online Code</h2>
+                            <img class="img-responsive img-centered" src="img/portfolio/GitHub.png" alt="">
+                            <p>Here you can find the code and documentations to all my projects.</p>
+                            <p><a  target="_blank" href="http://www.github.com/adiyoss/">View on GitHub</a></p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -389,33 +416,6 @@
         </div>
     </div>
 
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Locator</h2>
-                            <img class="img-responsive img-centered" src="img/portfolio/locator.jpg" alt="">
-                            <p>Locator is an indoor localization system using the Kinect device. By using computer vision tool on the Depth image of the Kinect Locator can create probabilistic assumptions of the location at any moment</p>
-                            <p><a  target="_blank">Download Locator</a></p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
 
@@ -433,7 +433,5 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
-
 </body>
-
 </html>
