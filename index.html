@@ -1,249 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Yossi Adi</title>
 
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-    <link href="css/agency.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  </head>
 
-</head>
+  <body id="page-top">
 
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">Yossi Adi</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="page-scroll">
-                        <a href="#publication">Publication</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#music">Music</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="papers/cv.pdf" target="blank">CV</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="https://github.com/adiyoss" target="blank">Source Code</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <!-- <span class="d-block d-lg-none">Start Bootstrap</span> -->
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/yossiadi.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="img/cv.pdf" target="_blank">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#music">Music</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                	<div class="row intro">
-                    <p class ="pull-left" style="font-size:23px"> My name is Yossi Adi, I'm a machine learning researcher and professional drummer. Currently, I'm pursuing my Ph.D in computer science at <a href='http://www1.biu.ac.il/indexE.php' target="blank" style='color:white'><u>Bar-Ilan University</u></a> under the supervision of <a href='http://u.cs.biu.ac.il/~jkeshet/' target="blank" style='color:white'><u>Dr. Joseph Keshet</u></a>. My research interests are focused on developing and analyzing machine learning and deep learning algorithms for speech and language.
-                    </br>
-                    As a musician, I'm the drummer and one of the band members of <a href='http://lucillecrew.com/' target="blank" style='color:white'><u>Lucille Crew</u></a>. </p>
-                    </div>
-               	</div>
-            </div>
-        </div>
-    </header>
+    <div class="container-fluid p-0">
 
-    <!-- Section -->
-    <section id="publication">
-        <div class="container">
-            <!-- <img class="img-responsive" src="img/profile.jpg" alt=""> -->
-            <div class="row">
-                <h2 class="section-heading">Publications</h2>
-                
-                <!-- 2018 -->
-                <p class="section-heading" style='font-size:24px; color:#fd3e62; margin-top: 30px;'>2018</p>
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Yossi
+            <span class="text-primary">Adi</span>
+          </h1>
+          <div class="subheading mb-5">
+            <p class="mb-1">yossiadidrum at gmail dot com</p>
+          </div>
+          <p class="mb-2">My name is Yossi Adi, I'm a machine learning researcher and professional drummer. Currently, I'm pursuing my Ph.D in computer science at <a href='http://www1.biu.ac.il/indexE.php' target="blank"><u>Bar-Ilan University</u></a> under the supervision of <a href='http://u.cs.biu.ac.il/~jkeshet/' target="blank"><u>Dr. Joseph Keshet</u></a>.</p>
+          <p class="mb-2">My research interests are focused on developing and analyzing machine learning and deep learning algorithms for speech and language applications. I completed my M.Sc. (2015) in Computer Science at Bar-Ilan University. My complete CV can be found <a href="img/cv.pdf" target="_blank"> here.</a> </p>
+          <p class="mb-5">As a musician, I'm the drummer and one of the band members of <a href='http://lucillecrew.com/' target="blank"><u>Lucille Crew</u></a>. </p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/yossi.adi.7" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/channel/UCmWKq-gvlG0UvveteXxJrLw" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/yossi-adi-31a32858/" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/adiyoss" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="publications">
+        <div class="my-auto">
+          <h2 class="mb-5">Publications</h2>
+
+          <!-- 2018 -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">2018</h3>
                 <!-- USENIX -->
                 <p id="paper"><b>Yossi Adi</b>, Carsten Baum, Moustapha Cisse, Benny Pinkas, and Joseph Keshet, Turning Your Weakness Into a Strength: Watermarking Deep Neural Networks by Backdooring. <i>arXiv preprint arXiv:1802.04633, 2018, </i> [<a href="https://arxiv.org/pdf/1802.04633.pdf" target="blank" class='pink'>PDF</a>].</p>
                 <!-- ICASSP -->
                 <p id="paper">Felix Kreuk, <b>Yossi Adi</b>, Moustapha Cisse, and Joseph Keshet, Fooling End-to-End Speaker Verification With Adversarial Examples. <i>The 43nd IEEE International Conference in Acoustic, Speech and Signal Processing (ICASSP), Alberta, Calgary, Canada, 2018, </i> [<a href="https://arxiv.org/pdf/1801.03339.pdf" target="blank" class='pink'>PDF</a>].</p>
+            </div>
+          </div>
 
-                <!-- 2017 -->
-                <p class="section-heading" style='font-size:24px; color:#fd3e62; margin-top: 30px;'>2017</p>
-                <!-- NIPS -->
-                <p id="paper">Moustapha Cisse, <b>Yossi Adi</b>, Natalia Neverova, and Joseph Keshet, Houdini: Fooling Deep Structured Visual and Speech Recognition Models with Adversarial Examples. <i>The 31st Annual Conference on Neural Information Processing Systems (NIPS), Long Beach, CA, USA, 2017, </i> [<a href="http://papers.nips.cc/paper/7273-houdini-fooling-deep-structured-visual-and-speech-recognition-models-with-adversarial-examples.pdf" target="blank" class='pink'>PDF</a>].</p>
-                <!-- INTERSPEECH EINAT-->
-                <p id="paper">Einat Naaman, <b>Yossi Adi</b>, and Joseph Keshet, Learning Similarity Function for Pronunciation Variations. <i>The 18th Annual Conference of the International Speech Communication Association (Interspeech), Stockholm, Sweden, 2017, </i> [<a href="http://www.isca-speech.org/archive/Interspeech_2017/pdfs/1117.PDF" target="blank" class='pink'>PDF</a>].</p>
-                <!-- INTERSPEECH YANIV-->
-                <p id="paper">Yaniv Sheena, Misha Hejna, <b>Yossi Adi</b>, Joseph Keshet, Automatic Measurement of Pre-aspiration. <i>The 18th Annual Conference of the International Speech Communication Association (Interspeech), Stockholm, Sweden, 2017, </i> [<a href="http://www.isca-speech.org/archive/Interspeech_2017/pdfs/0870.PDF" target="blank" class='pink'>PDF</a>].</p>
-                <!-- ICLR -->
-                <p id="paper"><b>Yossi Adi</b>, Einat Kermany, Yonatan Belinkov, Ofer Lavi and Yoav Goldberg, Fine-grained Analysis of Sentence Embeddings Using Auxiliary Prediction Tasks. <i>International Conference on Learning Representations (ICLR), Toulon, France, 2017, </i> [<a href="https://arxiv.org/pdf/1608.04207v3.pdf" target="blank" class='pink'>PDF</a>].</p>
-                <!-- ICASSP -->
-                <p id="paper"><b>Yossi Adi</b>, Joseph Keshet, Emily Cibelli, and Matt Goldrick, Sequence Segmentation Using Joint RNN and Structured Prediction Models. <i>The 42nd IEEE International Conference in Acoustic, Speech and Signal Processing (ICASSP), New Orleans, LA, USA, 2017, </i> [<a href="https://arxiv.org/pdf/1610.07918v1.pdf" target="blank" class='pink'>PDF</a>].</p>
-                <!-- IBM JOURNAL -->
-                <p id="paper"><b>Yossi Adi</b>, Einat Kermany, Yonatan Belinkov, Ofer Lavi and Yoav Goldberg, Analysis of Sentence Embedding Models using Prediction Tasks in Natural Language Processing. <i>IBM Journal of Research and Development 61.4, 3-1, 2017,  </i> [<a href="http://ieeexplore.ieee.org/abstract/document/8030297/" target="blank" class='pink'>PDF</a>].</p>
+          <!-- 2017 -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">2017</h3>
+              <!-- NIPS -->
+              <p id="paper">Moustapha Cisse, <b>Yossi Adi</b>, Natalia Neverova, and Joseph Keshet, Houdini: Fooling Deep Structured Visual and Speech Recognition Models with Adversarial Examples. <i>The 31st Annual Conference on Neural Information Processing Systems (NIPS), Long Beach, CA, USA, 2017, </i> [<a href="http://papers.nips.cc/paper/7273-houdini-fooling-deep-structured-visual-and-speech-recognition-models-with-adversarial-examples.pdf" target="blank" class='pink'>PDF</a>].</p>
+              <!-- INTERSPEECH EINAT-->
+              <p id="paper">Einat Naaman, <b>Yossi Adi</b>, and Joseph Keshet, Learning Similarity Function for Pronunciation Variations. <i>The 18th Annual Conference of the International Speech Communication Association (Interspeech), Stockholm, Sweden, 2017, </i> [<a href="http://www.isca-speech.org/archive/Interspeech_2017/pdfs/1117.PDF" target="blank" class='pink'>PDF</a>].</p>
+              <!-- INTERSPEECH YANIV-->
+              <p id="paper">Yaniv Sheena, Misha Hejna, <b>Yossi Adi</b>, Joseph Keshet, Automatic Measurement of Pre-aspiration. <i>The 18th Annual Conference of the International Speech Communication Association (Interspeech), Stockholm, Sweden, 2017, </i> [<a href="http://www.isca-speech.org/archive/Interspeech_2017/pdfs/0870.PDF" target="blank" class='pink'>PDF</a>].</p>
+              <!-- ICLR -->
+              <p id="paper"><b>Yossi Adi</b>, Einat Kermany, Yonatan Belinkov, Ofer Lavi and Yoav Goldberg, Fine-grained Analysis of Sentence Embeddings Using Auxiliary Prediction Tasks. <i>International Conference on Learning Representations (ICLR), Toulon, France, 2017, </i> [<a href="https://arxiv.org/pdf/1608.04207v3.pdf" target="blank" class='pink'>PDF</a>].</p>
+              <!-- ICASSP -->
+              <p id="paper"><b>Yossi Adi</b>, Joseph Keshet, Emily Cibelli, and Matt Goldrick, Sequence Segmentation Using Joint RNN and Structured Prediction Models. <i>The 42nd IEEE International Conference in Acoustic, Speech and Signal Processing (ICASSP), New Orleans, LA, USA, 2017, </i> [<a href="https://arxiv.org/pdf/1610.07918v1.pdf" target="blank" class='pink'>PDF</a>].</p>
+              <!-- IBM JOURNAL -->
+              <p id="paper"><b>Yossi Adi</b>, Einat Kermany, Yonatan Belinkov, Ofer Lavi and Yoav Goldberg, Analysis of Sentence Embedding Models using Prediction Tasks in Natural Language Processing. <i>IBM Journal of Research and Development 61.4, 3-1, 2017,  </i> [<a href="http://ieeexplore.ieee.org/abstract/document/8030297/" target="blank" class='pink'>PDF</a>].</p>
+            </div>
+          </div>
 
-                <!-- 2016 -->
-                <p class="section-heading" style='font-size:24px; color:#fd3e62; margin-top: 30px;'>2016</p>
+          <!-- 2016 -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">2016</h3>
                 <!-- JASA -->
                 <p id="paper"><b>Yossi Adi</b>, Joseph Keshet, Emily Cibelli, Erin Gustafson, Cynthia Clopper and Matt Goldrick, Automatic Measurement of Vowel Duration via Structured Prediction. <i>Journal of the Acoustical Society of America, Volume 140, Issue 6, 2016, </i> [<a href="http://asa.scitation.org/doi/abs/10.1121/1.4972527" target="blank" class='pink'>PDF</a>, <a href="https://github.com/adiyoss/AutoVowelDuration" target="blank" class='pink'>Code</a>].</p>
                 <!-- INTERSPEECH -->
                 <p id="paper"><b>Yossi Adi</b>, Joseph Keshet, Olga Dmitrieva and Matt Goldrick, Automatic Measurement of Voice Onset Time and Prevoicing using Recurrent Neural Networks, <i>The 17th Annual Conference of the International Speech Communication Association (Interspeech), San Francisco, CA, USA, 2016, </i> [<a href="http://www.isca-speech.org/archive/Interspeech_2016/pdfs/0893.PDF" target="blank" class='pink'>PDF</a>, <a href="https://github.com/adiyoss/DeepVOT" target="blank" class='pink'>Code</a>].</p>
                 <!-- JMLR -->
                 <p id="paper"><b>Yossi Adi</b> and Joseph Keshet, StructED : Risk Minimization in Structured Prediction, <i>Journal of Machine Learning Research 17, 1-5, 2016, </i> [<a href="http://www.jmlr.org/papers/volume17/15-531/15-531.pdf" target="blank" class='pink'>PDF</a>, <a href="http://adiyoss.github.io/StructED/" target="blank" class='pink'>Website</a>, <a href="https://github.com/adiyoss/StructED" target="blank" class='pink'>Code</a>].</p>
-
-                <!-- 2015 -->
-                <p class="section-heading" style='font-size:24px; color:#fd3e62; margin-top: 20px;'>2015</p>
-                <!-- MLSP -->
-                <p id="paper"><b>Yossi Adi</b>, Joseph Keshet and Matt Goldrick, Vowel Duration Measurement Using Deep Neural Networks. <i>The 25th IEEE International Workshop on Machine Learning for Signal Processing (MLSP), Boston, MA, USA, 2015, </i> [<a href="http://u.cs.biu.ac.il/~jkeshet/papers/AdiKeGo15.pdf" target="blank" class='pink'>PDF</a>].</p>
             </div>
+          </div>
+
+          <!-- 2015 -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">2015</h3>
+              <!-- MLSP -->
+              <p id="paper"><b>Yossi Adi</b>, Joseph Keshet and Matt Goldrick, Vowel Duration Measurement Using Deep Neural Networks. <i>The 25th IEEE International Workshop on Machine Learning for Signal Processing (MLSP), Boston, MA, USA, 2015, </i> [<a href="http://u.cs.biu.ac.il/~jkeshet/papers/AdiKeGo15.pdf" target="blank" class='pink'>PDF</a>].</p>
+            </div>
+          </div>
         </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="music" style='padding-bottom: 60px;'>
-        <div class="container">
-            <div class="row" style='padding-top: 40px; padding-bottom: 30px; color:white;'>
-                <h2>Music</h2>
+      </section>
+
+      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of Colorado Boulder</h3>
+              <div class="subheading mb-3">Bachelor of Science</div>
+              <div>Computer Science - Web Development Track</div>
+              <p>GPA: 3.23</p>
             </div>
-            <div class="row">
-                <p class ="pull-left" style="font-size:23px; color:white;"> Drumming has always been my passion, and it's been a very big part of my life. I'm the drummer of <a href='http://lucillecrew.com/' target="blank" style='color:white'><u>Lucille Crew</u></a> - an international hip-hop and groove collective based in Tel Aviv. Here are a few links to our music.</p>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2006 - May 2010</span>
             </div>
-            <div class="row" style="color:white; padding-top: 20px;">
-                <div class='col-md-1'>
-                </div>
-                <div class='col-md-1'>
-                </div>
-                <div class='col-md-2'>
-                    <p class="text-center" style="font-size:18px;">iTunes</p>
-                    <a href="https://itunes.apple.com/us/artist/lucille-crew/id966495022" class="thumbnail" target="blank">
-                         <img src="img/ituns.png" class="img-responsive">
-                    </a>
-                </div>
-                <div class='col-md-2'>
-                    <p class="text-center" style="font-size:18px;">YouTube</p>
-                    <a href="https://www.youtube.com/channel/UCmWKq-gvlG0UvveteXxJrLw" class="thumbnail" target="blank">
-                         <img src="img/yout.png" class="img-responsive">
-                    </a>
-                </div>
-                <div class='col-md-2'>
-                    <p class="text-center" style="font-size:18px;">SoundCloud</p>
-                    <a href="https://soundcloud.com/lucille-smokin-soul" class="thumbnail" target="blank">
-                         <img src="img/sound.png" class="img-responsive">
-                    </a>
-                </div>
-                <div class='col-md-2'>
-                    <p class="text-center" style="font-size:18px;">BandCamp</p>
-                    <a href="https://lucillesmokinsoul.bandcamp.com/" class="thumbnail" target="blank">
-                         <img src="img/bc.png" class="img-responsive">
-                    </a>
-                </div>
-                <div class='col-md-1'>
-                </div>
-                <div class='col-md-1'>
-                </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">James Buchanan High School</h3>
+              <div class="subheading mb-3">Technology Magnet Program</div>
+              <p>GPA: 3.56</p>
             </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2002 - May 2006</span>
+            </div>
+          </div>
+
         </div>
-    </section>
+      </section> -->
 
-    <!-- Contact Section -->
-    <section id="contact" style='padding-bottom: 60px;'>
-        <div class="container">
-            <div class="row" style='padding-top: 60px; padding-bottom: 30px; color:white;'>
-                <h2>Contact</h2>
-            </div>
-            <div class="row">
-                <div>
-                    <div class='col-md-6' style="margin-left:-10px;">
-                        <p class="section-heading" style='padding-bottom: 5px; color:white; font-size:20px;'><i class="fa fa-envelope"></i> &nbsp Yossiadidrum at gmail dot com </p>
-                    </div>
-                    <div class='col-md-6'>
-                        <ul class="list-inline social-buttons  pull-right">
-                            <li><a href="https://github.com/adiyoss" style='color:white' target="blank"><i class="fa fa-github fa-lg"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/yossi-adi-31a32858?trk=nav_responsive_tab_profile_pic" style='color:white' target="blank"><i class="fa fa-linkedin fa-lg"></i></a>
-                            </li>
-                            <li><a href="https://www.facebook.com/yossi.adi.7" style='color:white' target="blank"><i class="fa fa-facebook fa-lg"></i></a>
-                            </li>
-                            <li><a href="https://twitter.com/adiyossLC" style='color:white' target="blank"><i class="fa fa-twitter fa-lg"></i></a>
-                            </li>
-                        </ul>
-                    <div>
-                </div>
-            </div>
+      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-css3"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-javascript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-jquery"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-sass"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-less"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bootstrap"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-wordpress"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-grunt"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-gulp"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-npm"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Mobile-First, Responsive Design</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Browser Testing &amp; Debugging</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Functional Teams</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Agile Development &amp; Scrum</li>
+          </ul>
         </div>
-    </section>
+      </section> -->
 
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; WebMonsterz 2015
-                    </div>
-                </div>
-            </div>
+      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Awards amp; Scholarships</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Google Analytics Certified Developer</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Mobile Web Specialist - Google Certification</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              2<sup>nd</sup>
+              Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
+            <li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              Place - James Buchanan High School - Hackathon 2006</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              3<sup>rd</sup>
+              Place - James Buchanan High School - Hackathon 2005</li>
+          </ul>
         </div>
-    </footer>
+      </section> -->
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="music">
+        <div class="my-auto">
+          <h2 class="mb-5">Music</h2>
+          <p class="mb-2"> Drumming has always been my passion, and it's been a very big part of my life.</p>
+          <p class="mb-2">I'm the drummer of <a href='http://lucillecrew.com/' target="blank"><u>Lucille Crew</u></a> - an international hip-hop and groove collective based in Tel Aviv. </p>
+          <p class="mb-5">Here are a few links to our music:</p>
+          <div class="row" style="padding-top: 20px;">
+            <div class='col-md-1'>
+            </div>
+            <div class='col-md-2'>
+                <p class="text-center">Spotify</p>
+                <a href="https://open.spotify.com/artist/5eLv7rNfrf3IjMnK311ByP" class="thumbnail" target="blank">
+                     <img src="img/spotify.jpeg" class="img-fluid img-profile img-thumbnail mx-auto mb-5">
+                </a>
+            </div>
+            <div class='col-md-2'>
+                <p class="text-center">Deezer</p>
+                <a href="https://www.deezer.com/en/artist/7572550" class="thumbnail" target="blank">
+                     <img src="img/deezer.jpg" class="img-fluid img-profile img-thumbnail mx-auto mb-5">
+                </a>
+            </div>
+            <div class='col-md-2'>
+                <p class="text-center">iTunes</p>
+                <a href="https://itunes.apple.com/us/artist/lucille-crew/id966495022" class="thumbnail" target="blank">
+                     <img src="img/ituns.png" class="img-fluid img-profile img-thumbnail mx-auto mb-5">
+                </a>
+            </div>
+            <div class='col-md-2'>
+                <p class="text-center">YouTube</p>
+                <a href="https://www.youtube.com/channel/UCmWKq-gvlG0UvveteXxJrLw" class="thumbnail" target="blank">
+                     <img src="img/yout.png" class="img-fluid img-profile img-thumbnail mx-auto mb-5">
+                </a>
+            </div>
+            <div class='col-md-2'>
+                <p class="text-center">SoundCloud</p>
+                <a href="https://soundcloud.com/lucille-smokin-soul" class="thumbnail" target="blank">
+                     <img src="img/sound.jpg" class="img-fluid img-profile img-thumbnail mx-auto mb-5">
+                </a>
+            </div>
+            <div class='col-md-1'>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
-
-</body>
+  </body>
 
 </html>
