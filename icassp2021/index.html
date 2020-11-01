@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Speech Regeneration</title>
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
+        <script src="./scripts/jquery-3.5.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div id="text1">Single Channel Voice Separation for Unknown Number of Speakers under Reverberant and Noisy Settings</div>
+            <div id="intro">
+                <p>
+                    Shlomo E. Chazan, Lior Wolf, Eliya Nachmani, Yossi Adi
+                </p>
+                <p>
+                </p>
+            </div>
+        </div>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <div class="content-container">
+            <script src="https://unpkg.com/wavesurfer.js"></script>
+            <div class="content-title">Example</div>
+            <div class="option-div">
+                <p>Mixture:</p>
+                <div id="input_header_waveform"></div>
+                <button id="input_header" class="play-button-demo btn btn-primary" onclick="wavesurfer.playPause()">
+                    <i class="fa fa-play"></i>
+                    Play
+                    /
+                    <i class="fa fa-pause"></i>
+                    Pause
+                </button>
+            </div>
+            <div class="option-div">
+                <p>Spk #1:</p>
+                <div id="header_waveform"></div>
+                <button id="header" class="play-button-demo btn btn-primary" onclick="wavesurfer_2.playPause()">
+                    <i class="fa fa-play"></i>
+                    Play
+                    /
+                    <i class="fa fa-pause"></i>
+                    Pause
+                </button>
+            </div>
+            <div class="option-div">
+                <p>Spk #2:</p>
+                <div id="header_waveform"></div>
+                <button id="header" class="play-button-demo btn btn-primary" onclick="wavesurfer_3.playPause()">
+                    <i class="fa fa-play"></i>
+                    Play
+                    /
+                    <i class="fa fa-pause"></i>
+                    Pause
+                </button>
+            </div>
+    <script>
+        var wavesurfer = WaveSurfer.create({
+                    container: '#input_header_waveform',
+                    waveColor: 'violet',
+                    progressColor: 'purple'
+                });
+        wavesurfer.load('./samples/mix.wav');
+        var wavesurfer_2 = WaveSurfer.create({
+                    container: '#header_waveform',
+                    waveColor: 'violet',
+                    progressColor: 'purple'
+                });
+        wavesurfer_2.load('./samples/s1.wav');
+        var wavesurfer_3 = WaveSurfer.create({
+                    container: '#header_waveform',
+                    waveColor: 'violet',
+                    progressColor: 'purple'
+                });
+        wavesurfer_3.load('./samples/s2.wav');
+    </script>
+</div>
+</body>
+</html>
